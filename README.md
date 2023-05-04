@@ -16,12 +16,13 @@ Projeto realizado com o objetivo de criar uma landing page, para concluir o desa
 
 ### ⌨ Funcionalidades
 
-A validação vai mostrar uma mensagem de erro quando o email não for escrito pelo usuário da forma padrão.
+-  A validação vai mostrar uma mensagem de erro quando o email não for escrito pelo usuário da forma padrão.
+-  Menu hambuerguer é mostrado quando a tela passar para mobile.
     
 ## 🖱️ A página
 <img src="src/img/desktop-mobile.gif" alt="Gif exibindo o desktop e versão mobile do site">    
 
-> <a href="" target= "_blank">Acesse a página online</a>  
+> <a href="https://devkarine.github.io/fylo-lp/" target= "_blank">Acesse a página online</a>  
 
 
 ## 👩‍💻 Dev

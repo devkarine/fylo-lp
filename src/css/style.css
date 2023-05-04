@@ -1,38 +1,37 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Raleway:wght@400;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Raleway:wght@400;700&display=swap");
 
-body{
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 400;
-    height: 100vh;
-    margin: 0 auto;
-    padding: 0 3rem;
-    color: var(--fs01);
+body {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  height: 100vh;
+  margin: 0 auto;
+  padding: 0 3rem;
+  color: var(--fs01);
 }
 
-h2{
-    font-family: 'Raleway', sans-serif;
-    font-weight: 700;
-    font-size: 2rem;
-    
+h2 {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 2rem;
 }
 
-.container{
-    width: 100%;
-    height: auto;
-    
+h3 {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 1rem;
 }
 
-.hero .container{
-    display: flex;
-    gap: 3rem;
+.container {
+  width: 100%;
+  height: auto;
 }
 
-.productive .container{
-    display: flex;
-    gap: 3rem;
+.hero .container {
+  display: flex;
+  gap: 3rem;
 }
 
-
-    
-
-
+.productive .container {
+  display: flex;
+  gap: 3rem;
+}
