@@ -1,0 +1,10 @@
+:root{
+    --ligth: hsl(240, 75%, 98%);
+    --shadow: hsl(0, 0%, 75%);
+    --button: hsl(224, 93%, 58%);
+    --hover: hsl(170, 45%, 43%);
+    --footer-bg: hsl(243, 87%, 12%);
+    --fs01: rgb(0, 5, 24);
+    --access-bg: hsl(238, 22%, 44%);
+    --error: rgb(255, 31, 68);
+}
