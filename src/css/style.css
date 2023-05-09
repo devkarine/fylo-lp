@@ -5,14 +5,13 @@ body {
   font-weight: 400;
   height: 100vh;
   margin: 0 auto;
-  padding: 0 3rem;
   color: var(--fs01);
 }
 
 h2 {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
-  font-size: 2rem;
+  font-size: 3rem;
 }
 
 h3 {
@@ -24,14 +23,180 @@ h3 {
 .container {
   width: 100%;
   height: auto;
+  padding: 0 5rem;
 }
 
-.hero .container {
-  display: flex;
-  gap: 3rem;
-}
-
+.hero .container,
 .productive .container {
   display: flex;
   gap: 3rem;
+  padding-bottom: 20rem;
+}
+
+.hero .container .presentation,
+.productive .container .info-productive {
+  font-size: 1.5rem;
+  width: 70rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.hero .container .presentation p {
+  padding: 2rem 0;
+}
+
+.form input {
+  padding: 0.5rem;
+}
+
+.btn {
+  background-color: var(--button);
+  padding: 0.5rem;
+  width: 15rem;
+  height: 3rem;
+  border-radius: 0.5rem;
+  color: var(--light);
+  margin-left: 1rem;
+}
+
+.btn:hover {
+  background-color: var(--hover);
+}
+
+.img {
+  width: 75rem;
+}
+
+.productive .container .info-productive p {
+  padding: 1rem 0;
+}
+
+.productive .container .info-productive a {
+  display: flex;
+  align-items: center;
+  align-self: flex-start;
+  gap: 0.2rem;
+  color: var(--button);
+  border-bottom: 0.1rem solid var(--button);
+  margin-bottom: 2rem;
+}
+
+.productive .container .info-productive a:hover {
+  color: var(--hover);
+  border-bottom: 0.1rem solid var(--hover);
+}
+
+.productive .container .comment {
+  box-shadow: 0.1rem 0.1rem 0.3rem var(--shadow);
+  border-radius: 1rem;
+  padding: 2rem;
+  width: 30rem;
+}
+
+.productive .container .comment p {
+  font-size: 1.2rem;
+}
+
+.productive .container .comment .profile {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+.productive .container .comment .profile img {
+  width: 5rem;
+  border-radius: 50%;
+}
+
+.productive .container .comment .profile ul li {
+  font-size: 1rem;
+}
+
+.access .container {
+  background-color: var(--access-bg);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 20rem;
+}
+
+.access .container .form input {
+  width: 50rem;
+  text-align: center;
+}
+
+.access .container .info-access {
+  color: var(--light);
+  width: 50rem;
+}
+
+.access .container .info-access p {
+  font-size: 1.5rem;
+  padding: 2rem 0;
+}
+
+.footer {
+  padding-block: 5rem;
+  padding-bottom: 2.5rem;
+  background-color: var(--footer-bg);
+  color: var(--light);
+  margin-top: auto;
+}
+
+.footer-container {
+  max-width: 1160px;
+  margin: auto;
+  padding: 0 1.5rem;
+}
+
+.footer-top {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  row-gap: 20px;
+}
+
+.footer-top img {
+  padding-bottom: 2rem;
+  filter: invert(1);
+}
+
+.footer-list {
+  font-size: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.footer-listlink {
+  transition: color 0.25s;
+}
+.footer-listlink:hover {
+  color: var(--hover);
+}
+
+.social ul {
+  display: flex;
+  font-size: 2rem;
+  gap: 1rem;
+}
+
+.social ul li i:hover {
+  color: var(--hover);
+}
+
+.footer-divider {
+  margin-block: 2.5rem;
+  border: none;
+  border-top: 0.1rem solid rgba(252, 255, 255, 0.1);
+}
+
+.footer-bottom {
+  display: flex;
+  justify-content: space-between;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.footer-bottom .copyright a:hover {
+  color: var(--hover);
 }

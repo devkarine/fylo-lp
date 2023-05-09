@@ -1,5 +1,5 @@
 :root {
-  --ligth: hsl(240, 75%, 98%);
+  --light: hsl(240, 75%, 98%);
   --shadow: hsl(0, 0%, 75%);
   --button: hsl(224, 93%, 58%);
   --hover: hsl(170, 45%, 43%);
@@ -7,4 +7,5 @@
   --fs01: rgb(0, 5, 24);
   --access-bg: hsl(238, 22%, 44%);
   --error: rgb(255, 31, 68);
+  --productive-bg: rgb(248, 248, 254);
 }

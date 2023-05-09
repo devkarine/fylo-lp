@@ -50,8 +50,13 @@
             </p>
 
             <form class="form">
-              <input type="email" name="email" id="email" placeholder="Enter your email"/>
-              <button type="submit">Get Started</button>
+              <input
+                type="email"
+                name="email"
+                id="email"
+                placeholder="Enter your email"
+              />
+              <button type="submit" class="btn">Get Started</button>
             </form>
           </div>
 
@@ -74,9 +79,7 @@
               colleagues for live collaboration. No email attachments required!
             </p>
 
-            <a href="#"
-              >See how Fylo works <img src="src/img/icon-arrow.svg" alt="seta"
-            /></a>
+            <a href="#">See how Fylo works<svg width="16" height="16" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><defs><circle id="b" cx="6" cy="6" r="6"/><filter x="-25%" y="-25%" width="150%" height="150%" filterUnits="objectBoundingBox" id="a"><feOffset in="SourceAlpha" result="shadowOffsetOuter1"/><feGaussianBlur stdDeviation="1" in="shadowOffsetOuter1" result="shadowBlurOuter1"/><feColorMatrix values="0 0 0 0 0.384313725 0 0 0 0 0.878431373 0 0 0 0 0.850980392 0 0 0 0.811141304 0" in="shadowBlurOuter1"/></filter></defs><g fill="none" fill-rule="evenodd"><g transform="translate(2 2)"><use fill="#000" filter="url(#a)" xlink:href="#b"/><use fill="currentcolor" xlink:href="#b"/></g><path d="M8.582 6l-.363.35 1.452 1.4H5.333v.5h4.338L8.22 9.65l.363.35 2.074-2z" fill="#1B2330"/></g></svg></a>
 
             <div class="comment">
               <img src="src/img/icon-quotes.svg" alt="aspas" />
@@ -105,6 +108,7 @@
       <section class="access">
         <div class="container">
           <div class="info-access">
+            <h2>Get early access today</h2>
             <p>
               It only takes a minute to sign up and our free starter tier is
               extremely generous. If you have any questions, our support team
@@ -112,63 +116,89 @@
             </p>
           </div>
           <form class="form">
-            <input type="email" name="email" id="email" />
-            <button type="submit">Get Started For Free</button>
+            <input
+              type="email"
+              name="email"
+              id="email"
+              placeholder="exemple@fylo.com.br"
+            />
+            <button type="submit" class="btn">Get Started For Free</button>
           </form>
         </div>
       </section>
     </main>
 
-    <footer>
-      <div class="container">
-        <img src="src/img/logo.svg" alt="Logo" />
-        <address>
-          <ul>
-            <li>
-              <img src="src/img/icon-phone.svg" alt="phone" />Phone:
-              +1-543-123-4567
-            </li>
-            <li>
-              <img src="src/img/icon-email.svg" alt="email" />example@fylo.com
-            </li>
-          </ul>
-        </address>
+    <footer class="footer">
+      <div class="footer-container">
+        <div class="footer-top">
+          <address>
+            <img src="src/img/logo.svg" alt="logo" />
+            <ul class="footer-list">
+              <li>
+                <a href="" class="footer-listlink">Phone: +1-543-123-4567</a>
+              </li>
+              <li>
+                <a href="" class="footer-listlink">example@fylo.com</a>
+              </li>
+            </ul>
+          </address>
 
-        <ul>
-          <li><a href="/">About us</a></li>
-          <li><a href="/">Jobs</a></li>
-          <li><a href="/">Press</a></li>
-          <li><a href="/">Blog</a></li>
-        </ul>
+          <nav>
+            <ul class="footer-list">
+              <li>
+                <a href="" class="footer-listlink">About us</a>
+              </li>
+              <li>
+                <a href="" class="footer-listlink">Jobs</a>
+              </li>
+              <li>
+                <a href="" class="footer-listlink">Press</a>
+              </li>
+              <li>
+                <a href="" class="footer-listlink">Blog</a>
+              </li>
+            </ul>
+          </nav>
 
-        <ul>
-          <li><a href="/">Contact Us</a></li>
-          <li><a href="/">Terms</a></li>
-          <li><a href="/">Privacy</a></li>
-        </ul>
+          <nav>
+            <ul class="footer-list">
+              <li>
+                <a href="" class="footer-listlink">Contact us</a>
+              </li>
+              <li>
+                <a href="" class="footer-listlink">Terms</a>
+              </li>
+              <li>
+                <a href="" class="footer-listlink">Privacy</a>
+              </li>
+            </ul>
+          </nav>
 
-        <div class="social">
-          <ul>
-            <li>
-              <a href="#"><i class="fab fa-facebook-square"></i></a>
-            </li>
-            <li>
-              <a href="#"><i class="fab fa-twitter"></i></a>
-            </li>
-            <li>
-              <a href="#"><i class="fab fa-instagram"></i></a>
-            </li>
-          </ul>
+          <div class="social">
+            <ul>
+              <li>
+                <a href="#"><i class="fab fa-facebook-square"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <hr class="footer-divider" />
+        <div class="footer-bottom">
+          <span class="copyright"
+            >&copy; 2023 Company. All rights reserved. Coded by
+            <a href="https://github.com/devkarine" target="_blank"
+              >Karine Pereira</a
+            >.
+          </span>
         </div>
       </div>
-      <p class="attribution">
-        Challenge by
-        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
-          >Frontend Mentor</a
-        >. Coded by
-        <a href="https://github.com/devkarine" target="_blank">Karine Pereira</a
-        >.
-      </p>
     </footer>
 
     <script src="src/js/script.js"></script>
