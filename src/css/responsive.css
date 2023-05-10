@@ -1,0 +1,46 @@
+@media(max-width:860px){
+    main .container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    
+    .hero .container,
+    .productive .container{
+        display: flex;
+        flex-direction: column-reverse;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .access .container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .img {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        max-width: 100%;
+      
+    }
+
+    .img img{
+        width: 40rem;
+      
+    }
+
+    .hero .container .presentation p, 
+    .productive .container p, 
+    .info-productive p{
+        max-width: 50rem;
+    }
+
+}

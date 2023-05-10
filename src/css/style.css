@@ -6,12 +6,13 @@ body {
   height: 100vh;
   margin: 0 auto;
   color: var(--fs01);
+  font-size: clamp(1rem, 2vw, 1.5rem);
 }
 
 h2 {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
-  font-size: 3rem;
+  font-size: clamp(1.5rem, 2vw, 3rem);
 }
 
 h3 {
@@ -21,7 +22,7 @@ h3 {
 }
 
 .container {
-  width: 100%;
+  max-width: 100%;
   height: auto;
   padding: 0 5rem;
 }
@@ -35,7 +36,6 @@ h3 {
 
 .hero .container .presentation,
 .productive .container .info-productive {
-  font-size: 1.5rem;
   width: 70rem;
   display: flex;
   flex-direction: column;
@@ -95,7 +95,7 @@ h3 {
 }
 
 .productive .container .comment p {
-  font-size: 1.2rem;
+  font-size: clamp(0.9rem, 3vw, 1.2rem);
 }
 
 .productive .container .comment .profile {
@@ -132,7 +132,6 @@ h3 {
 }
 
 .access .container .info-access p {
-  font-size: 1.5rem;
   padding: 2rem 0;
 }
 
